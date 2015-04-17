@@ -1,0 +1,77 @@
+# where things are (default)
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+data_source: ./_data
+collections: null
+
+# Handling Reading (default)
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Filtering Content (default)
+show_drafts: null
+limit_posts: 0
+future:      true
+unpublished: false
+
+# Plugins (default)
+whitelist: []
+gems:      []
+
+# Conversion (default)
+markdown: kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+
+# markdown processors
+kramdown:
+  math_engine: mathjax
+
+
+# Serving (default)
+detach:  false
+port:    4000
+host:    127.0.0.1
+baseurl: "" # does not include hostname # the subpath of your site, e.g. /blog/
+
+# Backwards-compatibility (default)
+relative_permalinks: false
+
+# Outputting (default)
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+quiet:    false
+defaults: []
+
+
+#--------------------------------------
+# Site settings
+
+title: Custom Website Title
+description: > # this means to ignore newlines until next tag "baseurl:"
+  This is Aakansh Gupta's website. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+keywords: machine learning, artificial intelligence, data, models, mathematics
+production_url: 
+url: "http://aakansh.gupta.com" # the base hostname & protocol for your site
+
+#author:
+author: Aakansh Gupta
+twitter: aakansh9
+github:  aakansh9
+email: aakansh9+contact@gmail.com
+gmailid: aakansh9
+linkedin: aakanshgupta
+
+
+
