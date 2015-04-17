@@ -1,0 +1,43 @@
+body {
+  background: $background;
+  color: $yellowish-black;
+  font: 300 20px/1.1 "Source Sans Pro", sans-serif;
+}
+
+a, b {
+  font-weight: 400;
+}
+
+a {
+  &, &:visited {
+    color: $greenishlink;
+    text-decoration: none;
+    border-bottom: 1px solid $light-gray-border;
+  }
+
+  &:hover, &:focus {
+    color: $greenishhover;
+    border-color: $dark-gray-border;
+  }
+}
+
+.at {
+  color: $light-turquoise;
+}
+
+.the-pug {
+  // Shrink for retina.
+  width: 320px;
+  height: 242px;
+}
+
+.elsewhere {
+  font-size: 16px;
+  list-style-type: none;
+  padding: 0;
+
+  &__item {
+    display: inline;
+    margin: 0 10px;
+  }
+}
