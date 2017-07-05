@@ -11,26 +11,26 @@
     <link rel="icon" href="/images/favicon.png">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/css/homepage.css">
+
+    <script type='text/javascript' src="http://d3js.org/d3.v2.min.js"></script>
   </head>
 
   <body>
     <div class="outer-container">
       <div class="inner-container">
 
-        <img src="/images/dp.png" alt="" class="the-pug">
-
+        <div id="chart">
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+        
         <p>I'm <b>Aakansh Gupta</b>, currently a data scientist at <a href="http://uhuru.co.jp/">Uhuru</a>, Japan.</p>
-
-        <p>My interests lie in machine learning and mathematics.</p>
-
-        <p>I write about theoretical machine learning <a href="/ml.html">here</a>.</p>
-
-        <p>Contact me at <a href="http://twitter.com/{{site.twitter}}"><span class="at">@</span>aakansh9</a> or <a href="mailto:{{site.email}}">{{ site.gmailid }}+contact<span class="at">@</span>gmail.com</a>.</p>
+        <p>My interests lie in machine learning and predictive modelling.</p>
+        <p>I blog about data science <a href="/blog.html">here</a>.</p>
+        <p>Contact me at <a href="mailto:{{site.email}}">aakansh9+contact@gmail.com</a>.</p>
 
         <ul class="elsewhere">
           <li class="elsewhere__item"><a href="http://github.com/{{ site.github }}">GitHub</a></li>
           <li class="elsewhere__item"><a href="http://www.linkedin.com/in/{{ site.linkedin }}">LinkedIn</a></li>
-          <li class="elsewhere__item"><a href="/assets/AakanshGupta.pdf">Resume</a></li>
         </ul>
 
       </div>

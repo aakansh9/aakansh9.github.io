@@ -1,4 +1,4 @@
-# NOTE
+#NOTE
 # Do not use tabs in _config file
 
 
@@ -71,13 +71,14 @@ defaults: []
 
 #--------------------------------------
 # Site settings
+#--------------------------------------
 
 title: Custom Website Title
 description: > # this means to ignore newlines until next tag "baseurl:"
   This is Aakansh Gupta's website. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-keywords: machine learning, artificial intelligence, data, models, mathematics
+keywords: machine learning, artificial intelligence, big data, data science, mathematics, statistics, learning, modelling
 production_url: 
 url: "http://aakansh.gupta.com" # the base hostname & protocol for your site
 
@@ -86,7 +87,6 @@ author: Aakansh Gupta
 twitter: aakansh9
 github:  aakansh9
 email: aakansh9+contact@gmail.com
-gmailid: aakansh9
 linkedin: aakanshgupta
 
 
